@@ -7,3 +7,6 @@
 
 # Create ClusterRoleBinding
 `kubectl create clusterrolebinding goldpinger --clusterrole=tp1-view --serviceaccount=namespace:goldpinger`
+
+# Create Service
+`kubectl create service nodeport goldpinger --tcp=8080:8080`
