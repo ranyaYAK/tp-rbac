@@ -9,7 +9,6 @@ Bind ServiceAccount `goldpinger` with ClusterRole `tp1-view`
 Create DeamonSet to deploy your app on all your worker nodes.
 
 ```yaml
----
 apiVersion: apps/v1
 kind: DaemonSet
 metadata:
