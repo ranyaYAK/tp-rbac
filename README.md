@@ -82,6 +82,6 @@ spec:
               port: 8080
             initialDelaySeconds: 20
             periodSeconds: 5
-
+```
 
 Create Service `goldpinger` type NodePort, Bind port 8080 and target pod with label app: goldpinger
